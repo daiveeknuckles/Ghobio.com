@@ -1,0 +1,141 @@
+/*  <----- CONTACT TAG -----> */
+#contact-tab a:link,
+#contact-tab a:visited {
+  color: #077799e3;
+}
+
+#contact-tab a:hover,
+#contact-tab a:active {
+  color: #09355ee3;
+}
+
+/* <----- SECTION -----> */
+section {
+  padding-top: 30px;
+  padding-bottom: 0;
+}
+
+/* <----- GRID -----> */
+.contact-form {
+  width: 1440px;
+  max-width: 100%;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  padding-bottom: 5px;
+  line-height: 1.25px;
+  font-weight: 700;
+  text-indent: 2px;
+  letter-spacing: 3.424px;
+  color: rgb(94, 94, 94);
+}
+
+#ghobio {
+  margin: 24px 0;
+  padding-top: 20px;
+}
+
+/* <----- GRID -----> */
+.span-1-of-2 {
+  width: 49.99%;
+  padding-left: 75px;
+}
+
+.span-1-of-2:last-child {
+  box-sizing: border-box;
+  max-width: 49.99%;
+  display: block;
+  padding: 0 50px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* <----- FORM -----> */
+.wrapper {
+  box-sizing: border-box;
+  display: block;
+  padding-bottom: 24px;
+}
+
+.container input {
+  width: 100%;
+  padding: 23px 16px 8px 16px;
+  position: relative;
+  color: rgb(71, 71, 71);
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: rgb#ffffff;
+  background-color: transparent;
+  vertical-align: middle;
+  appearance: auto;
+  text-align: start;
+  cursor: text;
+}
+
+/* label {  FIX FLOATING WITH JS
+  color: rgb(71, 71, 71);
+  position: absolute;
+  transform-origin: top left;
+  transform: translate(0, 16px) scale(1);
+  transition: all 0.1s ease-in-out;
+} */
+
+textarea {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 150px;
+  padding: 16px;
+  overflow: none;
+}
+
+#fineprints {
+  font-size: 12px;
+  padding-top: 35px;
+  padding-bottom: 16px;
+}
+
+.contact-links a {
+  color: rgb(3, 129, 161);
+}
+
+#teldigits {
+  margin: 24px 0;
+  padding-top: 20px;
+}
+/* <----- BUTTONS -----> */
+/* .btn:link,
+.btn:visited, */
+/* input[type="submit"] { */
+button {
+  display: inline-block;
+  padding: 8px 32px;
+  font-size: 14px;
+  width: 100%;
+  min-height: 48px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  line-height: 40px;
+  text-align: center;
+  border: 2px solid rgb(3, 129, 161);
+}
+
+.btn-ghost {
+  color: rgb(3, 129, 161);
+  background: #ffffff;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+  border: 2px solid rgba(85, 188, 214, 0.25);
+  background-color: rgb(85, 188, 214);
+  color: #000;
+}

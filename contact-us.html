@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/contact.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/grid.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/animate.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/queries.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Contact Us | Ghobio Technology, LLC</title>
+  </head>
+  <body>
+    <section>
+      <header>
+        <nav>
+          <div class="row">
+            <ul class="nav-bar">
+              <li><a href="home.html">Home</a></li>
+              <li>
+                <a href="about.html">About Us</a>
+              </li>
+              <li><a href="services.html">Services</a></li>
+              <li id="contact-tab">
+                <a href="contact-us.html"><strong>Contact Us</strong></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    </section>
+    <section>
+        <div class="row">
+          <hr aria-hidden="true" role="separator" class="text-space" />
+          <div class="col span-1-of-2">
+
+    </section>
+
+    <section>
+      <div class="row">
+        <div class="contact-form">
+          <div class="col span-1-of-2">
+            <form aria-live="polite" data-ux="Form">
+              <input type="text"  autocomplete="off" tabindex="-1" value style="display: none;">
+              <h4 role="heading" aria-level="4">FOR QUESTIONS OR QUOTES</h4>
+              <div data-ux="Block" class="wrapper">
+                <div>
+                  <div  class="container">
+                    <!-- <label>Name</label> FIXME : Use Javascript -->
+                    <input role="textbox" aria-multiline="false" type="text" placeholder="Name">
+                  </div>
+                </div>
+              </div>
+
+              <div data-ux="Block" class="wrapper">
+                <div>
+                  <div  class="container">
+                    <!-- <label>Email*</label> FIXME***Fix using Javascript****--> 
+                    <input role="textbox" aria-multiline="false" type="email" placeholder="Email*">
+                  </div>
+                </div>
+              </div>
+
+              <div data-ux="Block" class="wrapper">
+                <div>
+                  <div class="container">
+                    <textarea role="textbox" aria-multiline="true" rows="4" aria-lable="Message" data-ux="InputTextArea" placeholder="Message" data-aid="CONTACT_FORM_MESSAGE" data-typography="InputAlpha"></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <button tccltracking="click" class="btn btn-ghost" state="default" data-ux="Button" data-aid="CONTACT_SUBMIT_BUTTON_REND" data-typography="ButtonAlpha"><strong> SEND</strong></button>
+              </div>
+              <div>
+                <div class="contact-links">
+                  <p id="fineprints">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+                  </p>
+                </div>
+             </div>
+            </form>
+          </div>
+          
+          <div class="col span-1-of-2">
+            <div>
+              <p class="intro"><span>Let us tailor a service package that meets your needs. Tell us a little about your business, and we will get back to you with some ideas as soon as possible.</span></p>
+
+              <h4 id="ghobio"><strong>GHOBIO TECHNOLOGY, LLC</strong></h4>
+
+            </div>
+            
+
+            <p class="contact-links">
+              <span>Our Locations:<br>
+              We operate in Northern California, including the Bay Area and Sacramento regions. Our main office is located at:<br>
+              <a href="https://www.google.com/maps?q=180 Promenade Circle Suite 300, Sacramento, CA 95834">180 Promenade Circle, Suite 300, Sacramento, CA 95834</a>
+              </span>
+            </p>
+
+            
+            <p id="teldigits" class="contact-links">Phone Number: <a href="tel:(916( 891-7908">(916) 891-7908</a></p>
+        </div>
+        
+
+        </div>
+      </div>
+    </section>
+
+    <section>
+        <div class="closer">
+            <p>Copyright © 2020 Ghobio Technology, LLC - All Rights Reserved.</p>
+        </div>
+    </section>
+
+    <script src="JavaScript/script.js"></script>
+    <script src="JavaScript/jquery.waypoints.min.js"></script>
+  </body>
+</html>

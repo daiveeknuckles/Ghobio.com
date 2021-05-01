@@ -1,0 +1,38 @@
+/*  <----- SERVICE TAG -----> */
+#service-tab a:link,
+#service-tab a:visited {
+  color: #077799e3;
+}
+
+#service-tab a:hover,
+#service-tab a:active {
+  color: #09355ee3;
+}
+
+/* <----- NAV BAR -----> */
+section {
+  padding-bottom: 0;
+}
+
+/* <----- GRID -----> */
+.span-1-of-2 {
+  max-width: 33.33%;
+  padding-left: 75px;
+  margin: 0 auto;
+}
+
+.span-1-of-2:last-child {
+  order: 1;
+  box-sizing: border-box;
+  max-width: 66.67%;
+  display: block;
+  padding-right: 75px;
+}
+
+/* <----- TEXT -----> */
+
+p:nth-child(3),
+p:nth-child(11),
+p:nth-child(17) {
+  padding-top: 24px;
+}
